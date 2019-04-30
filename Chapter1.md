@@ -2,7 +2,7 @@
 
 ## 1.1
 
-- **Calculus** is one process for formalizing a method and **lambda calculus** formalizes the concept of effective computability, like turning machines.
+- **Calculus** is one process for formalizing a method and **lambda calculus** formalizes the concept of effective computability, like turing machines.
 - Haskell is a lambda calculus.
 
 ## 1.2
@@ -27,7 +27,7 @@
 
 - **My Definition**: When applying a function to an argument, if you can eliminate the head of the abstraction (since its only purpose is to bind a variable with value), this process is called **beta reduction**
 - **Formal Definition**:
-  > Beta reduction is this process of applying a lambda term to an argument, replacing the bound variables with the value of the argu- ment, and eliminating the head. Eliminating the head tells you the function has been applied.
+  > Beta reduction is this process of applying a lambda term to an argument, replacing the bound variables with the value of the argument, and eliminating the head. Eliminating the head tells you the function has been applied.
 - `λx.x` is the identity function - accept a single argument and return that same argument.
 - Steps to apply identity function to another lambda abstraction:
 
@@ -53,7 +53,7 @@
   𝜆𝑥.(𝜆𝑦.𝑥𝑦)
   ```
 - The lambda calculus is a process or method, like a game with a few simple rules for transforming lambdas, but no specific meaning. -> just a math tool🤔
-- Beta normal form is when you cannot beta reduce (apply lambdas to arguments) the terms any further. === **a fully evaluated expression** === **a fully executed program**
+- **Beta normal form** is when you cannot beta reduce (apply lambdas to arguments) the terms any further. === **a fully evaluated expression** === **a fully executed program**
 
 ## 1.8 Combinators
 
